@@ -1,12 +1,13 @@
+import React from "react";
 
-import React from 'react'
+import Home from "./pages/home/Home.jsx";
 
 function App() {
   return (
-   <>
-    <h1>App hai chat wali  </h1>
-   </>
-  )
+    <div className="p-4 h-screen flex items-center justify-center">
+      <Home />
+    </div>
+  );
 }
 
-export default App
+export default App; 
