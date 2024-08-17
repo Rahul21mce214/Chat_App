@@ -20,8 +20,8 @@ export const signup = async (req, res) => {
 
         //https://avatar-placeholder.iran.liara.run/
 
-        const boyProfilePic = `https://avatars.dicebear.com/public/boy?username=${username}`;
-        const girlProfilePic = `https://avatars.dicebear.com/public/girl?username=${username}`;
+        const boyProfilePic = `https://avatar.iran.liara.run/public/boy?username=${username}`;
+        const girlProfilePic = `https://avatar.iran.liara.run/public/girl?username=${username}`;
 
 
         const newUser = new User({
